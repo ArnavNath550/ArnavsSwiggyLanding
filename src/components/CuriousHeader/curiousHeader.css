@@ -1,0 +1,19 @@
+.curious-header-text {
+    margin-top: 140px;
+    margin-bottom: 0;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -.45px;
+    color: var(--black);
+}
+
+.curious-header-subtext {
+    font-size: 24px;
+    font-weight: 300;
+    width: 600px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    letter-spacing: -.3px;
+    color: var(--gray);
+}

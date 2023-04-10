@@ -1,0 +1,43 @@
+.swiggy-section-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.swiggy-left-section {
+    width: 50%;
+}
+
+.swiggy-right-section {
+    background-image: url(https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq);
+    width: 50%;
+    height: 100vh;
+    background-size: cover;
+}
+
+@media all and (max-width: 1279px) {
+    .swiggy-section-wrapper {
+        flex-direction: column-reverse!important;
+    }
+
+    .gyan-container {
+        max-width: max-content!important;
+    }
+
+    .curious-header-text {
+        margin-top: 25px!important;
+    }
+
+    .curious-header-subtext,.curious-search-keywords {
+        width: 100%;
+    }
+
+    .swiggy-left-section, .swiggy-right-section {
+        width: 100%!important;
+    }
+
+    .swiggy-right-section {
+        height: 150px;
+    }
+}

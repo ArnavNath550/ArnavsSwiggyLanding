@@ -1,0 +1,28 @@
+.gyan-container {
+    width: 100%;
+    max-width: 1125px;
+    margin: 0 auto;
+}
+
+.max-width {
+    max-width: 100%;
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.absolute-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.general-space-around {
+    padding: 40px;
+    padding-top: 0px;
+}

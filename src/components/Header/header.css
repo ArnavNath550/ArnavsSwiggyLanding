@@ -1,0 +1,48 @@
+.swiggy-header {
+    padding: 20px;
+    height: 60px;
+}
+
+.swiggy-header-logo svg {
+    height: 187px;
+    width: 230px;
+    opacity: 1;
+    fill: var(--orange);
+}
+
+.curious-heading-title {
+    color: #a9abb2;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.curious-search-keywords {
+    width: 570px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.curious-search-keyword:nth-child(2n) a {
+    color: #93959f!important;
+}
+
+.curious-search-keyword a {
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 8px;
+    color: #686b78;
+    line-height: 1.5;
+    letter-spacing: -.3px;
+}
+
+.curious-search-keyword {
+    display: inline-block;
+    padding: 0;
+}
+
+.search-keyword-wrapper  {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
